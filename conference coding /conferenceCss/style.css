@@ -1,0 +1,10 @@
+body {
+	background-color: #ffffff;
+	width: 400px;
+}
+textarea {
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+	width: 400px;
+} 
