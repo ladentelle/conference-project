@@ -1,10 +1,30 @@
 body {
-	background-color: #ffffff;
-	width: 400px;
+	
+	width: 275px;
+	outline: 0;
+	font-family: 'Roboto Slab', serif;
 }
-textarea {
-	background-color: #ffffff;
-	border: none;
+
+
+#headerText {
+	width: 275px;
 	outline: none;
-	width: 400px;
-} 
+}
+
+#mainText {
+	width: 275px;
+	outline: none;
+	
+}
+.header {
+	overflow: none;
+	outline-style: none;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.main {
+	overflow: none;
+	border-left: 4px solid grey;
+	padding-left: 10px;
+}
+
