@@ -21,6 +21,12 @@ body {
 	outline-style: none;
 	font-weight: bold;
 	padding-left: 10px;
+	outline: opx solid transparent;
+
+}
+[contenteditable]:focus {
+	outline: 0px solid transparent;
+
 }
 .main {
 	overflow: none;
