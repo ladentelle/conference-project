@@ -22,5 +22,23 @@ $(document).ready(function() {
 	saveInterval = setInterval(saveToStorage, saveTimeOut);
 
 	editContentElement.onfocus = getFromStorage
+
+	function log(msg) {
+    document.getElementById("log").value += msg + "\n";
+}
+
+	var p = document.getElementById("p");
+
+	p.onfocus = function() {
+    log("focus");
+};
+
+if ("addEventListener" in p) {
+    p.addEventListener("DOMCharacterDataModified", function() {
+        log("DOMCharacterDataModified");
+    }, false);
+}
+
+
 });
 
